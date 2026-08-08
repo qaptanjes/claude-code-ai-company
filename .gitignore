@@ -1,0 +1,21 @@
+# Arsiv ucuncu taraf icerik - repoya girmez, arsiv-indir.ps1 ile cekilir
+# Archive is third-party content - not committed; fetched via arsiv-indir.ps1
+arsiv/
+
+# Sirket hafizasi - projeye ozel, paylasilmaz
+# Company memory - project-specific, not shared
+hafiza/00-brief/*
+hafiza/10-bilgi/*
+hafiza/20-plan/*
+hafiza/30-gorevler/*
+hafiza/40-urun/*
+!hafiza/**/.gitkeep
+
+# Ortam
+.env
+.env.*
+!.env.example
+
+node_modules/
+.DS_Store
+Thumbs.db

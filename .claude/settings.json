@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(./arsiv/**)",
+      "Read(./hafiza/**)",
+      "Glob(./arsiv/**)",
+      "Grep(./arsiv/**)",
+      "Write(./hafiza/**)",
+      "Edit(./hafiza/**)"
+    ]
+  }
+}

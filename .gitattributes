@@ -1,0 +1,23 @@
+# Satir sonlarini platforma gore sabitle
+# Line endings pinned per platform
+
+# Varsayilan: depoda LF
+* text=auto eol=lf
+
+# Shell scriptleri MUTLAKA LF olmali.
+# CRLF ile giderse macOS/Linux'ta "bad interpreter: /bin/bash^M" hatasi verir.
+# Shell scripts MUST be LF, otherwise macOS/Linux fails with
+# "bad interpreter: /bin/bash^M"
+*.sh    text eol=lf
+
+# PowerShell Windows'ta CRLF ile daha uyumlu
+*.ps1   text eol=crlf
+
+# Ikili dosyalar
+*.png   binary
+*.jpg   binary
+*.zip   binary
+*.webp  binary
+
+# GitHub dil istatistiklerinde arsiv sayilmasin (indirilirse)
+arsiv/** linguist-vendored
